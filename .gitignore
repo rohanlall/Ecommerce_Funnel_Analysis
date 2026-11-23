@@ -1,0 +1,18 @@
+data/raw/*.csv
+data/*.duckdb
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+dashboard/data/
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+backup_pbip/
+backup_pbip_v2/
+
+# Power BI build files: only the final PDF is published
+dashboard/*
+!dashboard/olist_dashboard.pdf
+!dashboard/README.md
+src/export_powerbi.py
+backup_pbip_v3/
+reports/memo.md
